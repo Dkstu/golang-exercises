@@ -6,4 +6,5 @@ import (
 
 func main() {
 	exercises.Echo("Hello World")
+	exercises.Type()
 }
