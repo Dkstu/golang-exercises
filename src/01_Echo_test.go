@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestSayHi(t *testing.T) {
+func TestEcho(t *testing.T) {
 	assert := assert.New(t)
 	tests := []struct {
 		text string
@@ -19,7 +19,7 @@ func TestSayHi(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.text, func(t *testing.T) {
-			assert.Equal(t, tt.text, Echo(tt.text))
+			assert.Equal(tt.text, Echo(tt.text))
 		})
 	}
 }
