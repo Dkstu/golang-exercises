@@ -17,4 +17,9 @@ func main() {
 	exercises.Goto()
 	result, _ := exercises.Switch("Apple")
 	fmt.Println(result)
+
+	// Slice
+	result1, result2 := exercises.CopySlice([]string{"A", "B"})
+	fmt.Println(result1, result2)
+
 }
