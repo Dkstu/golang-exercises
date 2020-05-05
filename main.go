@@ -27,5 +27,6 @@ func main() {
 
 	// Panic
 	// exercises.CallPanic()
+	exercises.CallPanicWithRecover()
 
 }
