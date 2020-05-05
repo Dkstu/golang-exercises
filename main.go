@@ -29,4 +29,7 @@ func main() {
 	// exercises.CallPanic()
 	exercises.CallPanicWithRecover()
 
+	// JSON
+	exercises.JSON()
+
 }
